@@ -1,4 +1,3 @@
-sum = 0
-for e in range(100):
-    sum = sum + e
-print("The sum of the first 100 integer numbers is:", sum)
+print("This will print the numbers from 1 to 20.")
+for n in range(1,21):
+    print(n)
