@@ -27,13 +27,22 @@ tl = len(sequences[0])
 print("Sequence 1 is {} bases in length.".format(tl))
 
 #Count Base A
+<<<<<<< Updated upstream
 print("Base A")
 print("   Counter: ", count_bases(sequences[0])["As"])
+=======
+print("Base A:")
+print("Counter: ", count_bases(sequences[0])["As"])
+>>>>>>> Stashed changes
 #Calculate the total length
 if tl== 0:
     print("   Percentages: ", tl, "%")
 else:
+<<<<<<< Updated upstream
     print("   Percentage: ", round(100.0 * count_bases(sequences[0])["As"]/tl, 1),"%")
+=======
+    print("Percentage: ", round(100.0 * count_bases(sequences[0])["As"]/tl, 1),"%")
+>>>>>>> Stashed changes
 
 #Count Base C
 print("Base C")
