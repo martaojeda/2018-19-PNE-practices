@@ -27,7 +27,7 @@ class Seq:
         return counter
 
     def perc(self, base):
-        return self.count(base)*100/self.length()
+        return round(self.count(base)*100/self.length(), 1)
 
     def reverse(self):
         return Seq(self.strbases[::-1])
