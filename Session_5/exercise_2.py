@@ -27,46 +27,38 @@ tl = len(sequences[0])
 print("Sequence 1 is {} bases in length.".format(tl))
 
 #Count Base A
-<<<<<<< Updated upstream
 print("Base A")
 print("   Counter: ", count_bases(sequences[0])["As"])
-=======
-print("Base A:")
-print("Counter: ", count_bases(sequences[0])["As"])
->>>>>>> Stashed changes
 #Calculate the total length
 if tl== 0:
     print("   Percentages: ", tl, "%")
 else:
-<<<<<<< Updated upstream
     print("   Percentage: ", round(100.0 * count_bases(sequences[0])["As"]/tl, 1),"%")
-=======
-    print("Percentage: ", round(100.0 * count_bases(sequences[0])["As"]/tl, 1),"%")
->>>>>>> Stashed changes
+
 
 #Count Base C
 print("Base C")
-print("   Counter: ", count_bases(sequences[0])["Cs"])
+print("    Counter: ", count_bases(sequences[0])["Cs"])
 if tl== 0:
-    print("   Percentages: ", tl, "%")
+    print("    Percentages: ", tl, "%")
 else:
-    print("   Percentage: ", round(100.0 * count_bases(sequences[0])["Cs"]/tl, 1), "%")
+    print("    Percentage: ", round(100.0 * count_bases(sequences[0])["Cs"]/tl, 1), "%")
 
 #Count Base C
 print("Base C")
-print("   Counter: ", count_bases(sequences[0])["Cs"])
+print("    Counter: ", count_bases(sequences[0])["Cs"])
 if tl== 0:
-    print("   Percentages: ", tl, "%")
+    print("    Percentages: ", tl, "%")
 else:
-    print("   Percentage: ", round(100.0 * count_bases(sequences[0])["Cs"]/tl, 1), "%")
+    print("    Percentage: ", round(100.0 * count_bases(sequences[0])["Cs"]/tl, 1), "%")
 
 #Count Base T
 print("Base T")
-print("   Counter: ", count_bases(sequences[0])["Ts"])
+print("    Counter: ", count_bases(sequences[0])["Ts"])
 if tl== 0:
-    print("   Percentages: ", tl,"%")
+    print("    Percentages: ", tl,"%")
 else:
-    print("   Percentage: ", round(100.0 * count_bases(sequences[0])["Ts"]/tl, 1),"%")
+    print("    Percentage: ", round(100.0 * count_bases(sequences[0])["Ts"]/tl, 1),"%")
 
 
 #This is to calculate the data of sequence 2.
@@ -76,36 +68,36 @@ print("Sequence 2 is {} bases in length.".format(tl))
 
 # Count Base A
 print("Base A")
-print("   Counter: ", count_bases(sequences[1])["As"])
+print("    Counter: ", count_bases(sequences[1])["As"])
 # Calculate the total length
 if tl == 0:
-    print("   Percentages: ", tl, "%")
+    print("    Percentages: ", tl, "%")
 else:
-    print("   Percentage: ", round(100.0 * count_bases(sequences[1])["As"] / tl, 1), "%")
+    print("    Percentage: ", round(100.0 * count_bases(sequences[1])["As"] / tl, 1), "%")
 
 # Count Base C
 print("Base C")
-print("   Counter: ", count_bases(sequences[1])["Cs"])
+print("    Counter: ", count_bases(sequences[1])["Cs"])
 if tl == 0:
-    print("   Percentages: ", tl, "%")
+    print("    Percentages: ", tl, "%")
 else:
-    print("   Percentage: ", round(100.0 * count_bases(sequences[1])["Cs"] / tl, 1), "%")
+    print("    Percentage: ", round(100.0 * count_bases(sequences[1])["Cs"] / tl, 1), "%")
 
 # Count Base C
 print("Base C")
-print("   Counter: ", count_bases(sequences[1])["Cs"])
+print("    Counter: ", count_bases(sequences[1])["Cs"])
 if tl == 0:
-    print("   Percentages: ", tl, "%")
+    print("    Percentages: ", tl, "%")
 else:
-    print("   Percentage: ", round(100.0 * count_bases(sequences[1])["Cs"] / tl, 1), "%")
+    print("    Percentage: ", round(100.0 * count_bases(sequences[1])["Cs"] / tl, 1), "%")
 
 # Count Base T
 print("Base T")
-print("   Counter: ", count_bases(sequences[1])["Ts"])
+print("    Counter: ", count_bases(sequences[1])["Ts"])
 if tl == 0:
-    print("   Percentages: ", tl, "%")
+    print("    Percentages: ", tl, "%")
 else:
-    print("   Percentage: ", round(100.0 * count_bases(sequences[1])["Ts"] / tl, 1), "%")
+    print("    Percentage: ", round(100.0 * count_bases(sequences[1])["Ts"] / tl, 1), "%")
 
 
 
