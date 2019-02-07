@@ -1,4 +1,4 @@
-#This to impoert the Class Seq from the other file.
+#This to import the Class Seq from the other file.
 from Seq import Seq
 
 #This is the main program only for Sequence 1.
