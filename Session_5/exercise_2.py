@@ -44,13 +44,13 @@ if tl== 0:
 else:
     print("    Percentage: ", round(100.0 * count_bases(sequences[0])["Cs"]/tl, 1), "%")
 
-#Count Base C
-print("Base C")
-print("    Counter: ", count_bases(sequences[0])["Cs"])
+#Count Base G
+print("Base G")
+print("    Counter: ", count_bases(sequences[0])["Gs"])
 if tl== 0:
     print("    Percentages: ", tl, "%")
 else:
-    print("    Percentage: ", round(100.0 * count_bases(sequences[0])["Cs"]/tl, 1), "%")
+    print("    Percentage: ", round(100.0 * count_bases(sequences[0])["Gs"]/tl, 1), "%")
 
 #Count Base T
 print("Base T")
@@ -83,13 +83,13 @@ if tl == 0:
 else:
     print("    Percentage: ", round(100.0 * count_bases(sequences[1])["Cs"] / tl, 1), "%")
 
-# Count Base C
-print("Base C")
-print("    Counter: ", count_bases(sequences[1])["Cs"])
+# Count Base G
+print("Base G")
+print("    Counter: ", count_bases(sequences[1])["Gs"])
 if tl == 0:
     print("    Percentages: ", tl, "%")
 else:
-    print("    Percentage: ", round(100.0 * count_bases(sequences[1])["Cs"] / tl, 1), "%")
+    print("    Percentage: ", round(100.0 * count_bases(sequences[1])["Gs"] / tl, 1), "%")
 
 # Count Base T
 print("Base T")
