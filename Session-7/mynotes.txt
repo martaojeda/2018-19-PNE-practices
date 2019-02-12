@@ -1,0 +1,16 @@
+Here you will take your notes.
+
+Client - Server model.
+
+Teachers IP: 212.128.253.64
+
+My IP : 212.128.253.102
+*time=0,060
+
+IP Sara : 212.128.253.101
+
+*time= 0,628
+
+ping to www.google.com: 216.58.214.164
+
+ping to urjc.es: 212.128.240.50
