@@ -27,37 +27,8 @@ class Seq:
         return counter
 
     def perc(self, base):
-        return self.count(base)*100/self.length()
+        return round(self.count(base)*100/self.length(), 1)
 
     def reverse(self):
-        return self.strbases[::-1]
-
-
-s_1 = Seq("ACTGA")
-str_1 = s_1.strbases
-
-
-l_1 = s_1.length()
-r_1 = s_1.reverse()
-c_1 = s_1.complement()
-counter_C= s_1.count("C")
-counter_A = s_1.count("A")
-counter_G = s_1.count("G")
-counter_T = s_1.count("T")
-percentage_A = s_1.perc("A")
-percentage_C = s_1.perc("C")
-percentage_G = s_1.perc("G")
-percentage_T = s_1.perc("T")
-
-print(l_1)
-print(r_1)
-print(c_1.strbases)
-print(counter_A)
-print(counter_C)
-print(counter_G)
-print(counter_T)
-print(percentage_A)
-print(percentage_C)
-print(percentage_G)
-print(percentage_T)
+        return Seq(self.strbases[::-1])
 
