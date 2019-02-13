@@ -1,5 +1,5 @@
 import socket
-from Seq_prueba import Seq
+from Seq import Seq
 
 # Configure the Server's IP and PORT
 PORT = 8083
